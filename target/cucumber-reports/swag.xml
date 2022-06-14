@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="16.62">
+    <testcase classname="Booking hotel by adactin application" name="Login the application" time="4.178">
+        <system-out><![CDATA[Given user launches the adactin application.................................passed
+When Enter the username in user textbox.....................................passed
+And Enter the password in pass textbox......................................passed
+And clicks on the login button..............................................passed
+Then verify the homepage and navigate to search hotel page..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking hotel by adactin application" name="Search for hotel" time="1.721">
+        <system-out><![CDATA[When User select the location...............................................passed
+And User select the hotel...................................................passed
+And User select the Room type...............................................passed
+And User select number of Room..............................................passed
+And User select the Check-In................................................passed
+And User select the Check-Out...............................................passed
+And User select the no of adult.............................................passed
+And User select the no of children..........................................passed
+Then User valid search  hotel...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking hotel by adactin application" name="Login Sauce application" time="5.799">
+        <system-out><![CDATA[Given user launches the application.........................................passed
+When user enter a valid "standard_user" in username textbox.................passed
+And user enter a valid "secret_sauce" in pasword textbox....................passed
+And click on the submit button..............................................passed
+Then verfies the homepage...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking hotel by adactin application" name="Login Sauce application 2" time="4.436">
+        <system-out><![CDATA[Given user launches the application.........................................passed
+When user enter a valid "problem_user" in username textbox..................passed
+And user enter a valid "secret_sauce" in pasword textbox....................passed
+And click on the submit button..............................................passed
+Then verfies the homepage...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
